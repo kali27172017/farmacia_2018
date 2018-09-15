@@ -1,0 +1,64 @@
+body {
+  background: #f3f2f6;
+}
+
+.formLogin {
+  width: 300px;
+  height: 250px;
+  margin: 150px auto;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 10px;
+  position: relative;
+  background: white;
+  padding: 1em;
+}
+
+.formLogin input {
+  margin: 0.5em 0;
+}
+
+.formLogin-title {
+  font-weight: bold;
+  color: #1c3643;
+}
+
+.formLogin-user input {
+  width: 250px;
+  height: 30px;
+  border: 0;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding-left: 30px;
+}
+
+.formLogin-password input {
+  width: 250px;
+  height: 30px;
+  border: 0;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding-left: 30px;
+}
+
+.formLogin-submit input {
+  width: 250px;
+  height: 40px;
+  color: white;
+  border: 0;
+  outline: none;
+  border-radius: 7px;
+  background: #1c3643;
+}
+
+.formLogin-icon {
+  display: block;
+  position: absolute;
+  line-height: 100%;
+  font-size: 18px;
+  margin-top: 14px;
+  color: #1c3643;
+  padding-left: 5px;
+}
